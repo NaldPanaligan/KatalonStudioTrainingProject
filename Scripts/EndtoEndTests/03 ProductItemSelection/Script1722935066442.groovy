@@ -20,9 +20,6 @@ import com.kms.katalon.core.testobject.SelectorMethod as SelectorMethod
 
 //	WebUI.callTestCase(findTestCase('ReusableTestCases/TestSuiteSetup'), [:], FailureHandling.OPTIONAL)
 //	WebUI.callTestCase(findTestCase('ReusableTestCases/TestCaseSetup'), [:], FailureHandling.OPTIONAL)
-WebUI.callTestCase(findTestCase('ReusableTestCases/TestSuiteSetup'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('ReusableTestCases/TestCaseSetup'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Demo Web Shop/Log in Link'))
 
@@ -42,7 +39,7 @@ WebUI.verifyElementPresent(findTestObject('Page_Demo Web Shop. Products/Product 
 
 WebUI.verifyElementText(findTestObject('Page_Demo Web Shop. Products/SelectedCategory Title'), product.toString().toUpperCase())
 
-WebUI.callTestCase(findTestCase('ReusableTestCases/TestCaseTeardown'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('ReusableTestCases/TestSuiteTeardown'), [:], FailureHandling.STOP_ON_FAILURE)
+//	WebUI.callTestCase(findTestCase('ReusableTestCases/TestCaseTeardown'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//	WebUI.callTestCase(findTestCase('ReusableTestCases/TestSuiteTeardown'), [:], FailureHandling.STOP_ON_FAILURE)
 

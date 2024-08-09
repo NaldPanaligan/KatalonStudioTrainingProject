@@ -20,9 +20,7 @@ import com.kms.katalon.core.testobject.SelectorMethod as SelectorMethod
 
 //	WebUI.callTestCase(findTestCase('ReusableTestCases/TestSuiteSetup'), [:], FailureHandling.OPTIONAL)
 //	WebUI.callTestCase(findTestCase('ReusableTestCases/TestCaseSetup'), [:], FailureHandling.OPTIONAL)
-WebUI.callTestCase(findTestCase('ReusableTestCases/TestSuiteSetup'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ReusableTestCases/TestCaseSetup'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Demo Web Shop/Log in Link'))
 
@@ -36,6 +34,8 @@ category_link = CustomKeywords.'CustomKeywords1.categories_select'(categories)
 
 WebUI.click(category_link)
 
+WebUI.waitForElementClickable(findTestObject('Page_Demo Web Shop. Products/Product Item Link'), 5)
+
 WebUI.click(findTestObject('Page_Demo Web Shop. Products/Product Item Link'))
 
 WebUI.waitForElementPresent(findTestObject('Page_Demo Web Shop. Products/Product Item Title'), 5)
@@ -48,7 +48,7 @@ WebUI.verifyElementText(findTestObject('Page_Demo Web Shop. ProductDetails/Add S
 
 WebUI.verifyElementText(findTestObject('Page_Demo Web Shop. ProductDetails/Cart Quantity Link'), '(1)')
 
-WebUI.callTestCase(findTestCase('ReusableTestCases/TestCaseTeardown'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('ReusableTestCases/TestSuiteTeardown'), [:], FailureHandling.STOP_ON_FAILURE)
+//	WebUI.callTestCase(findTestCase('ReusableTestCases/TestCaseTeardown'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//	WebUI.callTestCase(findTestCase('ReusableTestCases/TestSuiteTeardown'), [:], FailureHandling.STOP_ON_FAILURE)
 

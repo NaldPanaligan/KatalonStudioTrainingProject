@@ -6,11 +6,11 @@
    <elementGuidId>0aef613e-3438-46bd-bbda-2fcb1e2baa82</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//h2//a[contains(text(),&quot;Black &amp; White Diamond Heart&quot;)]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),&quot;Black &amp; White Diamond Heart&quot;)]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
