@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>test valid username and invalid password</description>
+   <name>LogUnknownEmail</name>
+   <tag>login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>157c7c68-a62d-438e-8db9-b6531e283a95</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>801df747-4dae-40f2-b632-05af0434e1d8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b87524d5-11bc-4f34-b4c4-8ad2bf815d76</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>94b84ba7-a5bd-4595-bfbd-dcc0cec5c056</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec33ac19-a99e-4ca0-a568-8e0f59979e1b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'invalid1234@gmail.com'</defaultValue>
+      <description></description>
+      <id>801df747-4dae-40f2-b632-05af0434e1d8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'gbDMngplgR+2l0DawaYg5g=='</defaultValue>
+      <description></description>
+      <id>b87524d5-11bc-4f34-b4c4-8ad2bf815d76</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Login was unsuccessful. Please correct the errors and try again.'</defaultValue>
+      <description></description>
+      <id>94b84ba7-a5bd-4595-bfbd-dcc0cec5c056</id>
+      <masked>false</masked>
+      <name>error_message</name>
+   </variable>
+   <variable>
+      <defaultValue>'No customer account found'</defaultValue>
+      <description></description>
+      <id>ec33ac19-a99e-4ca0-a568-8e0f59979e1b</id>
+      <masked>false</masked>
+      <name>error_reason</name>
+   </variable>
+</TestCaseEntity>

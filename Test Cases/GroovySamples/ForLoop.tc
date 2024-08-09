@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ForLoop</name>
+   <tag>groovy1</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>67f9f428-8ac6-4e2b-a130-ba544dea16e3</testCaseGuid>
+</TestCaseEntity>

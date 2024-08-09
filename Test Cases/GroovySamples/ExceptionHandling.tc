@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ExceptionHandling</name>
+   <tag>groovy1</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>12670eeb-497c-450a-a97a-84e8ab38a976</testCaseGuid>
+</TestCaseEntity>

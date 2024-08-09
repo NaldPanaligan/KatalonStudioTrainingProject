@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>test successful login</description>
+   <name>03 ProductItemSelection</name>
+   <tag>endtoend</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>40f3b4ee-e87e-4812-9252-528f24630dba</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ab224573-af1c-4d4a-8e66-c35b7b59d8c3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d372849e-952e-4de9-a2b3-477b78a3f0d0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ed93be5-2c51-4acf-baff-bb4b1189f7b9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2237c758-4199-4f74-8c46-b75d897d37fc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'adetest1001@gmail.com'</defaultValue>
+      <description></description>
+      <id>ab224573-af1c-4d4a-8e66-c35b7b59d8c3</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'gbDMngplgR+2l0DawaYg5g=='</defaultValue>
+      <description></description>
+      <id>d372849e-952e-4de9-a2b3-477b78a3f0d0</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jewelry'</defaultValue>
+      <description></description>
+      <id>7ed93be5-2c51-4acf-baff-bb4b1189f7b9</id>
+      <masked>false</masked>
+      <name>categories</name>
+   </variable>
+   <variable>
+      <defaultValue>'Black &amp; White Diamond Heart'</defaultValue>
+      <description></description>
+      <id>2237c758-4199-4f74-8c46-b75d897d37fc</id>
+      <masked>false</masked>
+      <name>product</name>
+   </variable>
+</TestCaseEntity>

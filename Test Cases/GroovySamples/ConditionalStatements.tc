@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ConditionalStatements</name>
+   <tag>groovy1</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>312937a6-6843-46e6-aceb-85ea92a89725</testCaseGuid>
+</TestCaseEntity>

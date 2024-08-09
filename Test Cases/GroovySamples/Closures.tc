@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Closures</name>
+   <tag>groovy1</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>701b5552-17ca-40fc-af3a-291a5d166f9d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>test successful login</description>
+   <name>01 LeftMenuCategories</name>
+   <tag>endtoend</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f277c320-d878-49e4-aa38-f4e3d3e83eb1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7e625d6e-aca3-4723-ba72-8b61071d1402</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3380ef19-051a-4e5e-b8e0-034ab934ef92</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>260807aa-ef3d-4646-9fc3-b669593b28f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'adetest1001@gmail.com'</defaultValue>
+      <description></description>
+      <id>7e625d6e-aca3-4723-ba72-8b61071d1402</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'gbDMngplgR+2l0DawaYg5g=='</defaultValue>
+      <description></description>
+      <id>3380ef19-051a-4e5e-b8e0-034ab934ef92</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Apparel &amp; Shoes'</defaultValue>
+      <description></description>
+      <id>260807aa-ef3d-4646-9fc3-b669593b28f6</id>
+      <masked>false</masked>
+      <name>categories</name>
+   </variable>
+</TestCaseEntity>

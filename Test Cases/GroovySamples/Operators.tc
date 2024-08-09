@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Operators</name>
+   <tag>groovy1</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>15b465ee-a736-48a4-be0a-04b90d9bdab6</testCaseGuid>
+</TestCaseEntity>

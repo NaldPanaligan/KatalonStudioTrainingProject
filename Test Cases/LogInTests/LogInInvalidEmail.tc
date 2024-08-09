@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>test valid username and invalid password</description>
+   <name>LogInInvalidEmail</name>
+   <tag>login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>420f7075-d46f-44bb-85f4-087380c10307</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6de6b2c4-f84f-48d2-b047-efda8b5ada4d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6e9654fc-6159-4759-a381-75fdb6d20a27</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4130e2ec-e614-42d4-b5eb-ed417c486cf3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'invalid'</defaultValue>
+      <description></description>
+      <id>6de6b2c4-f84f-48d2-b047-efda8b5ada4d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'9nJBMkew2Wc='</defaultValue>
+      <description></description>
+      <id>6e9654fc-6159-4759-a381-75fdb6d20a27</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Please enter a valid email address.'</defaultValue>
+      <description></description>
+      <id>4130e2ec-e614-42d4-b5eb-ed417c486cf3</id>
+      <masked>false</masked>
+      <name>warning_message</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>test successful login</description>
+   <name>LogInSuccess</name>
+   <tag>login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>87fdcba9-6ece-4d76-aa91-be738dfa10d7</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>09eebe1e-fd88-4ce5-994e-213762df455e</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/LoginData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>09eebe1e-fd88-4ce5-994e-213762df455e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>eb0a5828-eace-4168-9fa1-d99ea19bbcf3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>09eebe1e-fd88-4ce5-994e-213762df455e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>27e9d7d9-284b-441b-83e6-0cf3c549d9bd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'adetest1001@gmail.com'</defaultValue>
+      <description></description>
+      <id>eb0a5828-eace-4168-9fa1-d99ea19bbcf3</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'gbDMngplgR+2l0DawaYg5g=='</defaultValue>
+      <description></description>
+      <id>27e9d7d9-284b-441b-83e6-0cf3c549d9bd</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

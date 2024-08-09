@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Regex</name>
+   <tag>groovy2</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b1227e0e-66b2-4477-a49a-ff963d7a9c52</testCaseGuid>
+</TestCaseEntity>
